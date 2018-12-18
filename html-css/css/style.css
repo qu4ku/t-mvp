@@ -62,6 +62,7 @@ table {
 
 body {
 	font-family: "HK Grotesk", "Lucida Grande", "Helvetica", sans-serif;
+	font-weight: bold;
 	line-height: 1.8;
 	font-size: 14px;
 	color: var(--text-light);
@@ -99,7 +100,7 @@ svg, svg * {
 
 
 .top__container {
-	
+
 }
 
 .top__container-slogan-main {
@@ -120,8 +121,9 @@ svg, svg * {
 	background-color: red;
 	color: white;
 	font-size: 16px;
-	padding: 10px 15px;
-	border-radius: 20px;
+	font-weight: bold;
+	padding: 15px 15px;
+	border-radius: 30px;
 
 	display: inline-block;
 }
@@ -132,6 +134,48 @@ svg, svg * {
 
 
 
+.benefits__headline {
+	font-size: 55px;
+	line-height: 66px: 
+}
 
+.benefits__sub {
+	background-color: var(--secondary-light);
+}
+
+.benefits__sub-text {
+	color: white;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.benefits__benefit-left-number, .benefits__benefit-left-number, .how__box-number{
+	font-size: 12px;
+}
+
+.benefits__benefit-left-headline, .benefits__benefit-right-headline {
+	font-size: 42px;
+	line-height: 46px;
+}
+
+.benefits__benefit-left-text, .benefits__benefit-right-text {
+
+}
+
+
+.how__headline {
+	font-size: 55px;
+}
+
+.how__box-headline {
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.footer {
+	background-color: var(--secondary-light);
+	height: 150px;
+	color: white;
+}
 
 
