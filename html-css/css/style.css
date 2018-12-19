@@ -71,7 +71,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: var(--secondary-light);
+	/*color: var(--secondary-light);*/
 }
 
 svg, svg * {
@@ -100,8 +100,35 @@ svg, svg * {
 	background-size: cover;
 }
 
+.top__logo {
+	margin: 50px 0 0 50px;
+	float: left;
+	/*background: red;*/
+}
+
+.top__menu {
+	display: inline-block;
+	/*background: yellow;*/
+	float: right;
+	margin: 74px 50px 0 0;
+}
+
+.top__menu li {
+
+	display: inline-block;
+	margin-left: 10px;
+	color: white;	
+}
+
+.top__menu li a {
+	color: white;
+	font-size: 16px;
+}
 
 .top__container {
+	margin: 200px auto auto 50px;
+	/*background: green;*/
+	max-width: 60%;
 
 }
 
@@ -124,10 +151,11 @@ svg, svg * {
 	color: white;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 15px 15px;
+	padding: 20px 20px;
 	border-radius: 30px;
 
 	display: inline-block;
+	border: none;
 }
 
 .button-slogan {
