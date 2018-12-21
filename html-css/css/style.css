@@ -193,14 +193,71 @@ svg, svg * {
 }
 
 
+.how {
+	display: grid;
+	/*grid-area: content;*/
+	grid-template-columns: 50px minmax(500px, auto) 50px;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+	"how-left how-text how-right"
+	"how-left how-container how-right";
+	/*grid-auto-flow: rows;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	/*background: red;*/
+
+	/*max-width: 800px;*/
+	/*justify-content: center;*/
+
+
+}
+.how-text-container {
+	grid-area: how-text;
+	/*background: green;*/
+}
+
 .how__headline {
 	font-size: 55px;
+	color: black;
+	/*display: inline-block;*/
+}
+
+.how__sub {
+	display: block;
+	max-width: 70%;
+}
+
+.how__box-container {
+	grid-area: how-container;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 50px;
+	grid-auto-flow: column;
+
+	/*background: yellow;*/
+	margin-top: 50px;
+
+}
+
+
+.how__box-number {
+	font-size: 12;
+	color: black;
 }
 
 .how__box-headline {
 	font-size: 36px;
 	line-height: 42px;
+	color: black;
+	margin-top: 20px;
 }
+
+.how__box-text {
+	margin-top: 30px;
+}
+
+
 
 .footer {
 	display: grid;
