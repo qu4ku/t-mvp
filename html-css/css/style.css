@@ -4,11 +4,6 @@
 	--secondary-light: #214bdc;
 	--secondar-dark: #1b1d29;
 	--text-light: #8b8b8b;
-/*	--posts-width: 780px;
-	--text-light: #ccd4db;
-	--text-dark: #949494;
-	--underline-color: #00ff78;*/
-
 }
 
 
@@ -71,7 +66,6 @@ body {
 
 a {
 	text-decoration: none;
-	/*color: var(--secondary-light);*/
 }
 
 svg, svg * {
@@ -103,18 +97,20 @@ svg, svg * {
 .top__logo {
 	margin: 50px 0 0 50px;
 	float: left;
-	/*background: red;*/
+	width: 50px;
+}
+
+.top__logo-mobile {
+	display: none;
 }
 
 .top__menu {
 	display: inline-block;
-	/*background: yellow;*/
 	float: right;
 	margin: 74px 50px 0 0;
 }
 
 .top__menu li {
-
 	display: inline-block;
 	margin-left: 10px;
 	color: white;	
@@ -127,7 +123,6 @@ svg, svg * {
 
 .top__container {
 	margin: 200px auto auto 50px;
-	/*background: green;*/
 	max-width: 60%;
 
 }
@@ -152,7 +147,7 @@ svg, svg * {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 20px 20px;
-	border-radius: 30px;
+	border-radius: 40px;
 
 	display: inline-block;
 	border: none;
@@ -160,6 +155,10 @@ svg, svg * {
 
 .button-slogan {
 	margin-top: 70px;
+}
+
+.button-send {
+	max-width: 100px;
 }
 
 
@@ -177,7 +176,6 @@ svg, svg * {
 	"benefits-left content content content benefits-righ"
 	"benefits-left content content content benefits-righ";
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .benefits-text-container {
@@ -223,7 +221,10 @@ svg, svg * {
 
 .benefits__benefit-a-img {
 	
-	background-color: red;
+	background-image: url('../img/benefits-a.jpg');
+	background-size: cover;
+	min-height: 300px;
+
 	grid-column: 1 / 2;
 	grid-row: 1 / 4;
 }
@@ -263,8 +264,11 @@ svg, svg * {
 }
 
 .benefits__benefit-b-img {
-	
-	background-color: red;
+
+	background-image: url('../img/benefits-b.jpg');
+	background-size: cover;
+	min-height: 300px;
+
 	grid-column: 3 / 4;
 	grid-row: 1 / 4;
 }
@@ -309,7 +313,10 @@ svg, svg * {
 
 .benefits__benefit-c-img {
 	
-	background-color: red;
+	background-image: url('../img/benefits-c.jpg');
+	background-size: cover;
+	min-height: 300px;
+
 	grid-column: 1 / 2;
 	grid-row: 1 / 4;
 }
@@ -353,7 +360,10 @@ svg, svg * {
 
 .benefits__benefit-d-img {
 	
-	background-color: red;
+	background-image: url('../img/benefits-d.jpg');
+	background-size: cover;
+	min-height: 300px;
+
 	grid-column: 3 / 4;
 	grid-row: 1 / 4;
 }
