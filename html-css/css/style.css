@@ -387,22 +387,14 @@ svg, svg * {
 
 
 
-
-/*.benefits__benefit-right {
-	grid-area: content;
-}*/
-
-
-
 .how {
 	display: grid;
 	grid-template-columns: minmax(50px, auto) minmax(500px, 1200px) minmax(50px, auto);
-	grid-template-rows: auto auto;
+	grid-template-rows: auto;
 	grid-template-areas:
 	"how-left how-text how-right"
 	"how-left how-container how-right";
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .how-text-container {
@@ -411,8 +403,8 @@ svg, svg * {
 
 .how__headline {
 	font-size: 55px;
+	line-height: 66px;
 	color: black;
-	/*display: inline-block;*/
 }
 
 .how__sub {
@@ -424,12 +416,10 @@ svg, svg * {
 	grid-area: how-container;
 	display: grid;
 	grid-template-columns: auto;
+	grid-template-rows: auto;
 	grid-column-gap: 50px;
 	grid-auto-flow: column;
-
-	/*background: yellow;*/
 	margin-top: 50px;
-
 }
 
 
@@ -455,16 +445,19 @@ svg, svg * {
 .price {
 	display: grid;
 	grid-template-columns: minmax(50px, auto) minmax(500px, 1200px) minmax(50px, auto);
+	margin-top: 50px;
+}
+
+.price-mobile {
+	display: none;
 }
 
 .price-table {
 	grid-column:  2 / 3;
-	/*background: red;*/
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(5, 100px);
 	align-items: center;
-	/*justify-content: center;*/
 }
 
 
@@ -475,35 +468,26 @@ svg, svg * {
 	height: 100px;
 	font-size: 22px;
 	line-height: 26px;
-
 	display: flex;
 	align-items: center;
-
 	padding-left: 20px;
-	/*align-self: center;*/
-	/*vertical-align: middle;*/
 }
 
 .th1 {
-
 	background-color: #214bdc;
 }
 .th3 {
-
 	background-color: #355bde;
 }
 .th6 {
-
 	background-color: #4b6ce0;
 }
 .th12 {
 	background-color: #5f7de3;
-
 }
 
 .tr1 {
 	background-color: #f7f9f9;
-
 }
 .tr3 {
 	background-color: #eceeee;
@@ -526,7 +510,6 @@ svg, svg * {
 
 .price-th-s p {
 	padding-left: 5px;
-
 	font-size: 16px;
 	color: #1b1d29;
 }
@@ -566,13 +549,11 @@ svg, svg * {
 
 .contact-text-container {
 	grid-area: contact-text;
-	/*background: green;*/
 }
 
 .contact__headline {
 	font-size: 55px;
 	color: black;
-	/*display: inline-block;*/
 }
 
 .contact__sub {
@@ -633,7 +614,7 @@ select {
 	/*grid-template-columns: minmax(20px, 50px) auto minmax(20px, 50px);*/
 	/*grid-template-columns: 50px minmax(500px, auto) 50px;*/
 	grid-template-columns: minmax(50px, auto) minmax(500px, 1200px) minmax(50px, auto);
-	grid-template-rows:auto;
+	grid-template-rows: auto;
 	grid-template-areas:
 	"footer-left footer-content footer-right";
 
@@ -649,7 +630,7 @@ select {
 }
 
 .footer__container-logo {
-	margin-left :50px;
+	margin-left: 50px;
 	margin-top: 45px;
 	float: left;
 	align-self: center;
