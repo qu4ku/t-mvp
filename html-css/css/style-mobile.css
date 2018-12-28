@@ -7,7 +7,7 @@
 
 .top {
 	width: 100vw;
-	/*background: green;*/
+	height: unset;
 }
 
 .top__logo {
@@ -126,6 +126,52 @@
 	margin: 30px 0px 0px 0px;
 }
 
+.price-mobile {
+	display: grid;
+	grid-template-columns: 20px auto 20px;
+
+}
+
+.price-mobile-table {
+	grid-column: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.price-headline {
+	font-size: 32px;
+}
+
+.price-th {
+	margin-top: 20px;
+}
+
+.price-th-s {
+	/*background: red;*/
+	height: unset;
+	/*min-height: 50px;*/
+	font-size: 22px;
+	padding-left: 10px;
+
+}
+
+.price-th-s p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.price-td {
+	height: unset;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+.price-td p {
+	font-size: 14px;
+}
+
+
+
 
 .how {
 	grid-template-columns: 20px 1fr 20px;
@@ -167,7 +213,7 @@
 input[type=text] {
 	height: 50px;
 	padding-left: 10px;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 select {
@@ -175,7 +221,7 @@ select {
 	padding-left: 10px;
 	overflow-wrap: break-word;
 	max-width: calc(100vw - 40px);
-	font-size: 13px;
+	font-size: 14px;
 	background-image: url("../img/arrow-down10p.png");
 }
 
