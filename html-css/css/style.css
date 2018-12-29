@@ -12,7 +12,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, body, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -129,7 +129,7 @@ svg, svg * {
 	line-height: 75px;
 }
 
-.top__container-slogan-sub {
+.top__container-slogan-body {
 	color: white;
 	font-size: 32px;
 	line-height: 36px;
@@ -171,21 +171,21 @@ svg, svg * {
 	grid-template-rows: auto;
 }
 
-.benefits__headline {
+.benefits__title {
 	font-size: 55px;
 	line-height: 66px;
 	color: black;
 	grid-column: 2 / 3;
 }
 
-.benefits__sub {
+.benefits__body {
 	background-color: var(--secondary-light);
 	grid-column: 3 / 5;
 	grid-row: 2 / 3;
 
 }
 
-.benefits__sub-text {
+.benefits__body-text {
 	color: white;
 	font-size: 16px;
 	line-height: 28px;
@@ -219,7 +219,7 @@ svg, svg * {
 	padding: 25px 0 0 25px;
 }
 
-.benefits__benefit-a-headline {
+.benefits__benefit-a-title {
 	font-size: 42px;
 	line-height: 46px;
 	color: black;
@@ -261,7 +261,7 @@ svg, svg * {
 	padding: 25px 0 0 25px;
 }
 
-.benefits__benefit-b-headline {
+.benefits__benefit-b-title {
 	font-size: 42px;
 	line-height: 46px;
 	color: black;
@@ -302,7 +302,7 @@ svg, svg * {
 	padding: 25px 0 0 25px;
 }
 
-.benefits__benefit-c-headline {
+.benefits__benefit-c-title {
 	font-size: 42px;
 	line-height: 46px;
 	color: black;
@@ -343,7 +343,7 @@ svg, svg * {
 	padding: 25px 0 0 25px;
 }
 
-.benefits__benefit-d-headline {
+.benefits__benefit-d-title {
 	font-size: 42px;
 	line-height: 46px;
 	color: black;
@@ -372,13 +372,13 @@ svg, svg * {
 	grid-area: how-text;
 }
 
-.how__headline {
+.how__title {
 	font-size: 55px;
 	line-height: 66px;
 	color: black;
 }
 
-.how__sub {
+.how__body {
 	display: block;
 	max-width: 70%;
 }
@@ -398,7 +398,7 @@ svg, svg * {
 	color: black;
 }
 
-.how__box-headline {
+.how__box-title {
 	font-size: 36px;
 	line-height: 42px;
 	color: black;
@@ -489,7 +489,7 @@ svg, svg * {
 	color: #8b8b8b;
 }
 
-.price-headline {
+.price-title {
 	font-size: 55px;
 }
 
@@ -507,12 +507,12 @@ svg, svg * {
 	grid-area: contact-text;
 }
 
-.contact__headline {
+.contact__title {
 	font-size: 55px;
 	color: black;
 }
 
-.contact__sub {
+.contact__body {
 	display: block;
 	max-width: 70%;
 }

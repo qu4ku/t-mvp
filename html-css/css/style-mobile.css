@@ -28,7 +28,7 @@
 
 .top__container {
 	max-width: 100%;
-	margin: 200px 20px 50px 20px;
+	margin: 150px 20px 50px 20px;
 }
 
 .top__container-slogan-main {
@@ -36,9 +36,9 @@
 	line-height: 44px;
 }
 
-.top__container-slogan-sub {
-	font-size: 40px;
-	line-height: 44px;
+.top__container-slogan-body {
+	font-size: 32px;
+	line-height: 38px;
 	font-weight: normal;
 }
 
@@ -60,18 +60,18 @@
 	width: 100vw;
 }
 
-.benefits__headline {
+.benefits__title {
 	font-size: 32px;
 	line-height: 36px;
 	/*grid-column: ;*/
 }
 
-.benefits__sub {
+.benefits__body {
 	grid-column: 2;
 	margin: 20px 0 40px 0px;
 }
 
-.benefits__sub-text {
+.benefits__body-text {
 	padding: 20px;
 }
 
@@ -106,10 +106,10 @@
 	display: none;
 }
 
-.benefits__benefit-a-headline, 
-.benefits__benefit-b-headline, 
-.benefits__benefit-c-headline, 
-.benefits__benefit-d-headline {
+.benefits__benefit-a-title, 
+.benefits__benefit-b-title, 
+.benefits__benefit-c-title, 
+.benefits__benefit-d-title {
 	grid-column: 2;
 	grid-row: 2;
 	overflow: visible;
@@ -138,7 +138,7 @@
 	grid-template-columns: 1fr 1fr;
 }
 
-.price-headline {
+.price-title {
 	font-size: 32px;
 }
 
@@ -147,12 +147,9 @@
 }
 
 .price-th-s {
-	/*background: red;*/
 	height: unset;
-	/*min-height: 50px;*/
 	font-size: 22px;
 	padding-left: 10px;
-
 }
 
 .price-th-s p {
@@ -178,7 +175,7 @@
 	max-width: 100vw;
 }
 
-.how__sub {
+.how__body {
 	max-width: 100%;
 }
 
