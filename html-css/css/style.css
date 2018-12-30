@@ -57,7 +57,7 @@ body {
 	font-family: "HK Grotesk", "Lucida Grande", "Helvetica", sans-serif;
 	font-weight: bold;
 	line-height: 1.8;
-	font-size: 14px;
+	font-size: 16px;
 	color: var(--text-light);
 	background: var(--bg-light);
 }
@@ -85,7 +85,6 @@ svg, svg * {
 .top {
 	grid-area: top;
 	height: 100vh;
-	background: yellow;
 	background-image: url('../img/hero-image.jpg');
 	background-size: cover;
 }
