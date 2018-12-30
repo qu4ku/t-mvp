@@ -114,7 +114,19 @@ svg, svg * {
 .top__menu li a {
 	color: white;
 	font-size: 16px;
+
+	transition-duration: 0.5s;
 }
+
+.top__menu li a:hover {
+	background-color: #ffd200;
+	color: black;
+	transition-duration: 0.2s;
+	padding: 5px;
+	border-radius: 50px;
+
+}
+
 
 .top__container {
 	margin: 200px auto auto 50px;
@@ -135,6 +147,9 @@ svg, svg * {
 	margin-top: 30px;
 }
 
+
+
+
 .button-main {
 	background-color: red;
 	color: white;
@@ -144,7 +159,16 @@ svg, svg * {
 	border-radius: 40px;
 	display: inline-block;
 	border: none;
+
+	transition-duration: 0.5s;
 }
+
+.button-main:hover {
+	background-color: #ffd200;
+	color: black;
+	transition-duration: 0.2s;
+}
+
 
 .button-slogan {
 	margin-top: 70px;
