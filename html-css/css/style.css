@@ -190,7 +190,7 @@ svg, svg * {
 
 
 .button-slogan {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .button-send {
@@ -500,7 +500,7 @@ svg, svg * {
 	background-color: #eceeee;
 }
 .tr6 {
-	background-color: #d0d0d0;
+	background-color: #dfe1e1;
 }
 .tr12 {
 	background-color: #c5c7c7;
@@ -563,7 +563,6 @@ svg, svg * {
 	grid-area: contact-form;
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-template-areas: "form-left" "form-right";
 	grid-auto-flow: row;
 	grid-column-gap: 50px;
 	grid-row-gap: 30px;
@@ -577,6 +576,11 @@ input[type=text] {
 	height: 80px;
 	font-size: 16px;
 	padding-left: 40px;
+	color: black;
+}
+
+input[type=text]::placeholder {
+	color: black;
 }
 
 select {
@@ -584,9 +588,9 @@ select {
 	height: 80px;
 	font-size: 16px;
 	padding-left: 35px;
-	/*padding-right: 40px;*/
 	background-color: white;
 	border-radius: 0px;
+	color: black;
 
 	-webkit-appearance: none;
   -webkit-border-radius: 0px;
