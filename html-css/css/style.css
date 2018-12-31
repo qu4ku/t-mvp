@@ -3,6 +3,8 @@
 	--bg-light: #f6f1f0;
 	--secondary-light: #214bdc;
 	--secondar-dark: #1b1d29;
+	--highlight: #ffd200;
+	/*--highlight: #21bbdc;*/
 	--text-light: #8b8b8b;
 }
 
@@ -50,11 +52,28 @@ table {
 	border-spacing: 0;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 
 /*------------------ CSS ------------------*/
 
+@font-face {
+	font-family: hk-regular;
+	src: url('../fonts/HKGrotesk-Regular.woff');
+}
+
+@font-face {
+	font-family: hk-bold;
+	src: url('../fonts/HKGrotesk-Bold.woff');
+	font-weight: bold;
+}
+
 body {
-	font-family: "HK Grotesk", "Lucida Grande", "Helvetica", sans-serif;
+	font-family: hk-bold, "Lucida Grande", "Helvetica", sans-serif;
 	font-weight: bold;
 	line-height: 1.8;
 	font-size: 16px;
@@ -119,7 +138,7 @@ svg, svg * {
 }
 
 .top__menu li a:hover {
-	background-color: #ffd200;
+	background-color: var(--highlight);
 	color: black;
 	transition-duration: 0.2s;
 	padding: 5px;
@@ -164,7 +183,7 @@ svg, svg * {
 }
 
 .button-main:hover {
-	background-color: #ffd200;
+	background-color: var(--highlight);
 	color: black;
 	transition-duration: 0.2s;
 }
